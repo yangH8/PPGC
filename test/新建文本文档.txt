@@ -1,0 +1,7 @@
+from PIL import Image
+import matplotlib.pyplot as plt
+img=Image.open('C:/Users/Administrator/Desktop/000000_10.png')
+img1=img.crop((729,118,1241,374))
+plt.figure("dog")
+plt.imshow(img1)
+plt.show()
